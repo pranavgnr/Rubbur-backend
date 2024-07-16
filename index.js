@@ -6,9 +6,9 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-
+//, http://localhost:4200
 const corsOptions = {
-    origin: 'https://www.rubbbur.xyz, https://localhost:4200',
+    origin: 'https://www.rubbbur.xyz',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: 'Content-Type, Authorization',
     optionsSuccessStatus: 204,
