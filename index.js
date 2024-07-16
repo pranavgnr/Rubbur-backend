@@ -8,7 +8,7 @@ require('dotenv').config();
 const app = express();
 
 const corsOptions = {
-    origin: 'https://www.rubbbur.xyz',
+    origin: 'https://www.rubbbur.xyz, https://localhost:4200',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: 'Content-Type, Authorization',
     optionsSuccessStatus: 204,
